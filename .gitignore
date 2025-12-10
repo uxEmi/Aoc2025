@@ -1,39 +1,14 @@
+# Ignore a specific input file
+input.txt
+
+# Ignore all files with .in extension
 *.in
-# Created by https://www.toptal.com/developers/gitignore/api/c++
-# Edit at https://www.toptal.com/developers/gitignore?templates=c++
 
-### C++ ###
-# Prerequisites
-*.d
+# Ignore input directory entirely
+input/
 
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
+# Ignore input files in any directory
+**/input*
 
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
-
-# End of https://www.toptal.com/developers/gitignore/api/c++
+# Ignore input files with specific patterns
+input*.txt
