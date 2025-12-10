@@ -1,5 +1,5 @@
 # Ignore a specific input file
-input.txt
+input.in
 
 # Ignore all files with .in extension
 *.in
